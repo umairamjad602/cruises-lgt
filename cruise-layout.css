@@ -57,4 +57,4 @@
 
 #header #header_nav #menu > li:has(ul):has(li):hover ul li a {
   color: var(--text-primary);
-}
+} 
