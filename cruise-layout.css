@@ -60,9 +60,9 @@
 } 
 
 #header_nav {
-  display: flex;
-  align-items: center;
-  column-gap: 30px;
+  display: flex !important;
+  align-items: center !important;
+  column-gap: 30px !important;
 }
 
 #header_logo img {
