@@ -55,6 +55,6 @@
   color: var(--bg-white);
 }
 
-#header #header_nav #menu > li:has(ul):has(li):hover ul li a {
+#header #header_nav #menu > li:has(ul):has(li) ul li a {
   color: var(--text-primary);
 } 
