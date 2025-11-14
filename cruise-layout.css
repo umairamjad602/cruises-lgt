@@ -1,5 +1,5 @@
 @import url("https://ayhanmike.github.io/cruise/css/layout.css");
-.pagemaker-widget:nth-child(0) {
+.pagemaker-widget.cc-widget--content {
   width: 100% !important;
   max-width: 100% !important;
   margin-top: 0px !important;
