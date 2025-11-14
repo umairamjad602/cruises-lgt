@@ -17,13 +17,12 @@
 --primary-950: #3a120a;
 
 --border-primary: #f25a2b;
---border-primary-light: #f25a2b;
+--border-primary-light: #ff784f;
 
 --bg-primary: #f25a2b;
 --bg-primary-muted: #ff784f;
 
 --text-primary: #f25a2b;
---text-on-primary: #f25a2b;
 
 --box-shadow-lg: 2px 4px 24px rgba(242, 90, 43, 0.08);
 --box-shadow-md: 1px 2px 16px rgba(242, 90, 43, 0.08);
