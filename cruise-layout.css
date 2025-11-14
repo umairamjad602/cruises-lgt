@@ -68,3 +68,7 @@
 #header_logo img {
   height: 60px !important;
 }
+
+#header #header_lang_switch select {
+  background-color: var(--bg-white) !important;
+}
