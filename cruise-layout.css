@@ -58,3 +58,13 @@
 #header #header_nav #menu > li:has(ul):has(li) ul li a {
   color: var(--text-primary);
 } 
+
+#header_nav {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.header_logo img {
+  height: 60px !important;
+}
