@@ -29,6 +29,10 @@
 --box-shadow-md: 1px 2px 16px rgba(242, 90, 43, 0.08);
 --box-shadow-sm: 0px 0px 8px rgba(242, 90, 43, 0.08);
 
+
+/* Images */
+--arrow-down-primary: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="%23f25a2b"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>');
+
 }
 
 #layout #cc .pagemaker-widget:nth-child(1) {
@@ -71,4 +75,5 @@
 
 #header #header_lang_switch select, #cc select {
   background-color: var(--bg-white) !important;
+  background-position: calc(100% - -4px) center !important;
 }
