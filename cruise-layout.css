@@ -69,6 +69,6 @@
   height: 60px !important;
 }
 
-#header #header_lang_switch select {
+#header #header_lang_switch select, #cc select {
   background-color: var(--bg-white) !important;
 }
