@@ -1,4 +1,4 @@
-@import('https://ayhanmike.github.io/cruise/css/layout.scss')
+@import url("https://ayhanmike.github.io/cruise/css/layout.css");
 .agemaker-widget:nth-child(0) {
   width: 100% !important;
   max-width: 100% !important;
