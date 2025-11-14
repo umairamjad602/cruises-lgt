@@ -1,0 +1,5 @@
+.agemaker-widget:nth-child(0) {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 0px !important;
+}
