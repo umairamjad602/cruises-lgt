@@ -1,4 +1,6 @@
 @import url("https://ayhanmike.github.io/cruise/css/layout.css");
+
+/* Custom CSS */
 #layout #cc .pagemaker-widget:nth-child(1) {
   width: 100% !important;
   max-width: 100% !important;
