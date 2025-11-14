@@ -49,3 +49,12 @@
 #header #header_nav #menu > li.menu_active > a {
   background: var(--bg-white);
 }
+
+#header #header_nav #menu > li:has(ul):has(li):hover ul li a:hover {
+  background: var(--bg-primary-muted);
+  color: var(--bg-white);
+}
+
+#header #header_nav #menu > li:has(ul):has(li):hover ul li a {
+  color: var(--text-primary);
+}
