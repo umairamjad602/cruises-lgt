@@ -1,6 +1,36 @@
 @import url("https://ayhanmike.github.io/cruise/css/layout.css");
 
 /* Custom CSS */
+
+:root {
+
+--primary-50:  #fff3ef;
+--primary-100: #ffe1d6;
+--primary-200: #ffc4b3;
+--primary-300: #ffa084;
+--primary-400: #ff7b55;
+--primary-500: #f25a2b;
+--primary-600: #d34f27;
+--primary-700: #b04121;
+--primary-800: #8d331b;
+--primary-900: #6b2614;
+--primary-950: #3a120a;
+
+--border-primary: #f25a2b;
+--border-primary-light: #f25a2b;
+
+--bg-primary: #f25a2b;
+--bg-primary-muted: #ff784f;
+
+--text-primary: #f25a2b;
+--text-on-primary: #f25a2b;
+
+--box-shadow-lg: 2px 4px 24px rgba(242, 90, 43, 0.08);
+--box-shadow-md: 1px 2px 16px rgba(242, 90, 43, 0.08);
+--box-shadow-sm: 0px 0px 8px rgba(242, 90, 43, 0.08);
+
+}
+
 #layout #cc .pagemaker-widget:nth-child(1) {
   width: 100% !important;
   max-width: 100% !important;
