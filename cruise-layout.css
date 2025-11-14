@@ -65,6 +65,6 @@
   column-gap: 30px;
 }
 
-.header_logo img {
+#header_logo img {
   height: 60px !important;
 }
