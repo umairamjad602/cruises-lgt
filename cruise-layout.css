@@ -168,3 +168,7 @@ footer .footer-col .footer-menu a, footer .footer-col .footer-menu li {
   padding: 5px 0px !important;
   position: relative;
 }
+
+footer .footer-inner .footer-col:last-child {
+  align-items: flex-start !important;
+}
