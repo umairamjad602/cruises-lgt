@@ -88,3 +88,15 @@
   font-size: 15px !important;
 }
 
+footer .copyright {
+  padding: 24px 0;
+  background-color: #003149 !important;
+  color: var(--gray-300);
+  font-size: 11px;
+  line-height: 20px;
+  border-top: 1px solid #0f4863 !important;
+}
+
+footer .footer-wrapper {
+  background-color: #003149 !important;
+}
