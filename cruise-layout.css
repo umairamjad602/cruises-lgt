@@ -155,3 +155,7 @@ footer .footer-inner .footer-menu strong {
 footer .footer-col .footer-menu a {
   color: #a8b2b6 !important;
 }
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
