@@ -77,3 +77,8 @@
   background-color: var(--bg-white) !important;
   background-position: calc(100% - -4px) center !important;
 }
+
+#layout #cc .pagemaker-widget:last-child {
+  width: 100% !important;
+  max-width: 100% !important;
+}
