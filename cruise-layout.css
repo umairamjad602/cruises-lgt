@@ -152,7 +152,7 @@ footer .footer-inner .footer-menu strong {
     color: var(--bg-white) !important;
 }
 
-footer .footer-col .footer-menu a {
+footer .footer-col .footer-menu a, footer .footer-col .footer-menu li {
   color: #a8b2b6 !important;
 }
 
