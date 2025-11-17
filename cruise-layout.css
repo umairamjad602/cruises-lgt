@@ -82,3 +82,12 @@
   width: 100% !important;
   max-width: 100% !important;
 }
+
+.text-center {
+  text-align: center !important;
+  font-size: 15px !important;
+}
+
+a {
+  color: var(--text-primary) !important;
+}
