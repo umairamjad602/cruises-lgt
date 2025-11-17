@@ -78,7 +78,7 @@
   background-position: calc(100% - -4px) center !important;
 }
 
-#layout #cc .pagemaker-widget:last-child {
+#layout #cc:last-child .pagemaker-widget:last-child {
   width: 100% !important;
   max-width: 100% !important;
 }
