@@ -54,11 +54,11 @@
 --icon-minus: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2221%22%20height%3D%2220%22%20viewBox%3D%220%200%2021%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M4.74365%2010.0041H16.4103%22%20stroke%3D%22%23ff784f%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E');
 }
 
-#layout #cc .pagemaker-widget:nth-child(1) {
+/* #layout #cc .pagemaker-widget:nth-child(1) {
   width: 100% !important;
   max-width: 100% !important;
   margin-top: 0px !important;
-}
+} */
 
 #header {
   background-color: var(--bg-primary);
@@ -97,11 +97,11 @@
   background-position: calc(100% - -4px) center !important;
 }
 
-#layout #cc .pagemaker-widget:last-child,
+/* #layout #cc .pagemaker-widget:last-child,
 #layout .pagemaker-widget:last-child {
   width: 100% !important;
   max-width: 100% !important;
-}
+} */
 
 .text-center {
   text-align: center !important;
