@@ -97,7 +97,7 @@
   background-position: calc(100% - -4px) center !important;
 }
 
-div#layout:last-of-type .pagemaker-widget { 
+.last-layout-pagemaker-widget { 
   width: 100% !important;
   max-width: 100% !important;
 }
