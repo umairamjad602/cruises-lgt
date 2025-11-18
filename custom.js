@@ -5,5 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     lastLayout.classList.add('last-layout');
     // you can also add a helper class to its pagemaker-widget(s)
     const widgets = lastLayout.querySelectorAll('.pagemaker-widget');
-    widgets.forEach(w => w.classList.add('last-layout-pagemaker-widget'));
+    widgets.forEach(w => {
+        w.classList.add('last-layout-pagemaker-widget');
+        w.style.setProperty("width", "100%", "important");
+        w.style.setProperty("max-width", "100%", "important");
+    });
 });
