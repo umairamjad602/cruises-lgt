@@ -3874,3 +3874,7 @@ footer .footer-inner .footer-col:last-child {
   background-repeat: no-repeat !important;
   padding: 4px 4px 4px 32px !important;
 }
+
+#cc .page_box {
+  background-color: transparent !important;
+}
