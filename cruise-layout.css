@@ -4476,7 +4476,7 @@ footer .footer-inner .footer-col:last-child {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1440px !important;
   padding: 0px 10px !important;
   margin: 0 auto;
 }
@@ -4487,4 +4487,8 @@ footer .footer-inner .footer-col:last-child {
 
 #cc:not(.cc_width_exc), .cc_limit_width, #header:not(.cc_width_exc), #footer:not(.cc_width_exc), #header_nav.cc-headernav-sticky #menu {
   max-width: unset !important;
+}
+
+#layout #cc .pagemaker-widget.cc-widget--content:has(+.cc-widget--product-map) .section-title, #layout #cc .pagemaker-widget.cc-widget--content:has(+.cc-widget--product-map) .section-subtitle {
+  color: var(--bg-primary) !important;
 }
