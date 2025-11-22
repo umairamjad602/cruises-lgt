@@ -4478,7 +4478,7 @@ footer .footer-inner .footer-col:last-child {
 .container {
   max-width: 1440px !important;
   padding: 0px 10px !important;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .text-white {
