@@ -22,15 +22,16 @@
   --bg-primary: #f25a2b;
   --bg-primary-muted: #ff784f;
 
-  --text-color: #f25a2b;
   --text-primary: #f25a2b;
   --bg-white: #fff;
   --white: #fff;
   --black: #000;
+  --text-color: #f25a2b;
 
   --box-shadow-lg: 2px 4px 24px rgba(242, 90, 43, 0.08);
   --box-shadow-md: 1px 2px 16px rgba(242, 90, 43, 0.08);
   --box-shadow-sm: 0px 0px 8px rgba(242, 90, 43, 0.08);
+
 
   --arrow-down-primary: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="%23f25a2b"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>');
   --icon-plus-primary: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='16' viewBox='0 0 17 16' fill='none'%3E%3Cpath d='M8.57699 3.33745V12.6708' stroke='%23f25a2b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M3.91064 8.00412H13.244' stroke='%23f25a2b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -1070,6 +1071,9 @@ body {
   position: relative;
   --value-font-weight: 500;
   --value-color: var(--text-color);
+  color: var(--text-color) !important;
+  border: 1px solid var(--text-color) !important;
+  border-radius: 7px !important;
 }
 
 #layout #search .searchdiv::after {
@@ -1113,7 +1117,6 @@ body {
 #layout #search .searchdiv#areas input[value=Destinasyonlar] {
   font-weight: 400;
   color: var(--text-muted);
-  border: 1px solid var(--bg-primary) !important
 }
 
 #layout #search .searchdiv#cruiselines::before {
@@ -1124,7 +1127,6 @@ body {
 #layout #search .searchdiv#cruiselines input[value="Gemi Firması "] {
   font-weight: 400;
   color: var(--text-muted);
-  border: 1px solid var(--bg-primary) !important
 }
 
 #layout #search .searchdiv#ships::before {
@@ -1135,7 +1137,6 @@ body {
 #layout #search .searchdiv#ships input[value="Gemi "] {
   font-weight: 400;
   color: var(--text-muted);
-  border: 1px solid var(--bg-primary) !important
 }
 
 #layout #search .searchdiv#durations::before {
@@ -1503,8 +1504,8 @@ footer .copyright .copyright-inner {
 
 #layout #cc #cc_lay_filter #cc_lay_filter_detail .searchdiv input {
   width: 100% !important;
-  border: 1px solid var(--border) !important;
-  color: var(--text-muted);
+  border: 1px solid var(--bg-primary) !important;
+  color: var(--text-color);
   border-radius: 6px;
   background: unset;
   background-color: var(--bg-white);
@@ -4494,4 +4495,11 @@ footer .footer-inner .footer-col:last-child {
 
 #layout #cc .pagemaker-widget.cc-widget--content:has(+.cc-widget--product-map) .section-title, #layout #cc .pagemaker-widget.cc-widget--content:has(+.cc-widget--product-map) .section-subtitle {
   color: var(--bg-primary) !important;
+}
+#cc_lay_filter_detail {
+  background: var(--bg-primary) !important;
+  border-radius: 7px !important;
+}
+.aida.ng-scope {
+  display: none !important;
 }
