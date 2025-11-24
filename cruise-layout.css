@@ -1679,7 +1679,7 @@ footer .copyright .copyright-inner {
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_nights {
   position: absolute;
   width: 160px;
-  padding: 12px 16px;
+  padding: 28px 16px;
   z-index: 1;
   box-sizing: border-box;
   right: 0;
@@ -1696,7 +1696,7 @@ footer .copyright .copyright-inner {
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_nights em {
   width: unset;
   font-size: unset;
-  color: var(--text-primary);
+  color: #363636;
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_text {
@@ -1719,11 +1719,12 @@ footer .copyright .copyright-inner {
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_text p.ng-binding {
   font-size: 12px;
   padding: 4px 8px;
-  background-color: var(--gray-100);
-  border: 1px solid var(--border);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
   border-radius: 4px;
   margin-bottom: 4px;
   display: inline-flex;
+  color: #363636 !important;
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_text p.ng-binding:nth-child(2) {
@@ -1742,13 +1743,15 @@ footer .copyright .copyright-inner {
   padding: 16px;
   z-index: 1;
   box-sizing: border-box;
+  color: #363636;
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_preis span {
-  font-size: 24px;
+  font-size: 36px;
   line-height: 32px;
   font-weight: bold;
   color: var(--text-primary);
+  margin-top: 5px;
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .b_forward {
@@ -1834,7 +1837,7 @@ footer .copyright .copyright-inner {
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box:hover .b_forward a i {
-  background-color: var(--green-600);
+  background-color: var(--bg-primary);
   color: var(--white);
   border: 1px solid var(--green-500);
 }
@@ -1845,21 +1848,21 @@ footer .copyright .copyright-inner {
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box:hover .b_forward a b {
-  background-color: var(--green-700);
+  background-color: var(--bg-primary);
   color: var(--white);
   z-index: 1;
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box:hover .liste_box_preis span {
-  color: var(--green-700);
+  color: var(--bg-primary);
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box:hover .liste_box_nights {
-  color: var(--green-700);
+  color: var(--bg-primary);
 }
 
 #layout #cc #cc_lay_page #cruise_list .liste_box:hover .liste_box_nights em {
-  color: var(--green-700);
+  color: var(--bg-primary);
 }
 
 #layout #cc #cc_lay_page div.textbox:has(+ #cruise_list) {
@@ -2709,7 +2712,7 @@ footer .copyright .copyright-inner {
 
 #layout #cc #cc_lay_ship .price_tbl td.price_tbl_01 {
   background-color: var(--green-100);
-  color: var(--green-700);
+  color: var(--bg-primary);
 }
 
 #layout #cc #cc_lay_ship .price_tbl td small {
@@ -3948,6 +3951,7 @@ label {
     display: unset;
     width: unset;
     font-size: 13px;
+    font-weight: bold;
   }
 
   #layout #cc #cc_lay_page #cruise_list .liste_box .liste_box_02 .liste_box_preis {
