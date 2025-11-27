@@ -2347,7 +2347,7 @@
   }
 
   #layout #cc #cc_lay_ship .page_content_header:has(.page_offers_chk) {
-    padding-left: calc(50% + 12px);
+    padding-left: 50%;
   }
 
   #layout #cc #cc_lay_ship .page_content_header>h1 {
