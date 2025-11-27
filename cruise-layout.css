@@ -2076,7 +2076,7 @@ footer .copyright .copyright-inner {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: var(--text-color);
+  color: var(--text-black-primary);
 }
 
 #layout #cc #cc_lay_ship .page_box .liste_box_02 .liste_box_headline em {
@@ -2094,7 +2094,7 @@ footer .copyright .copyright-inner {
   padding: 8px 16px;
   background-color: var(--bg-white);
   font-size: 14px;
-  color: var(--text-primary);
+  color: var(--text-black-primary);
   border-radius: 8px;
   border: 1px solid var(--border);
   display: flex;
@@ -2106,7 +2106,7 @@ footer .copyright .copyright-inner {
 
 #layout #cc #cc_lay_ship .page_box .liste_box_02 .liste_box_nights em {
   font-size: 16px;
-  color: var(--text-primary);
+  color: var(--text-black-primary);
   font-style: normal;
   width: unset;
   font-weight: 500;
@@ -2138,7 +2138,7 @@ footer .copyright .copyright-inner {
   padding: 8px 16px;
   background-color: var(--bg-white);
   font-size: 14px;
-  color: var(--text-primary);
+  color: var(--text-black-primary);
   border-radius: 8px;
   border: 1px solid var(--border);
   display: flex;
@@ -2175,7 +2175,7 @@ footer .copyright .copyright-inner {
   padding: 0;
   background-color: var(--bg-white);
   font-size: 14px;
-  color: var(--text-color);
+  color: var(--text-black-primary);
   border-radius: 8px;
   border: 1px solid var(--border);
 }
@@ -2398,7 +2398,7 @@ footer .copyright .copyright-inner {
   float: unset;
   width: unset;
   text-transform: uppercase;
-  color: var(--text-color);
+  color: var(--black);
   font-size: 14px;
   line-height: 24px;
   margin: 0;
@@ -2406,7 +2406,7 @@ footer .copyright .copyright-inner {
 
 #layout #cc #cc_lay_ship .page_content_header .page_offers_cabine .tbl_cabine,
 #layout #cc #cc_lay_ship .page_content_header .page_offers_cabine_ckd .tbl_cabine {
-  color: var(--text-color);
+  color: var(--text-black-primary);
   font-size: 14px;
   line-height: 24px;
   text-transform: capitalize;
@@ -2706,7 +2706,7 @@ footer .copyright .copyright-inner {
   border-spacing: 0;
   margin: 0;
   width: 100%;
-  color: var(--text-color);
+  color: var(--text-black-primary);
   border: 1px solid var(--border);
   border-radius: 4px;
   background-color: var(--bg-white);
@@ -2740,8 +2740,8 @@ footer .copyright .copyright-inner {
 }
 
 #layout #cc #cc_lay_ship .price_tbl td.price_tbl_01 {
-  background-color: var(--green-100);
-  color: var(--bg-primary);
+  background-color: transparent;
+  color: var(--black);
 }
 
 #layout #cc #cc_lay_ship .price_tbl td small {
@@ -2849,7 +2849,8 @@ footer .copyright .copyright-inner {
 
 #layout #cc .page_nav #pagenav {
   display: flex;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid transparent;
+  background-color: var(--white);
 }
 
 #layout #cc .page_nav #pagenav li span {
@@ -2882,7 +2883,7 @@ footer .copyright .copyright-inner {
 #layout #cc .page_content .page_content_2>p {
   font-size: 16px;
   line-height: 24px;
-  color: var(--text-primary);
+  color: var(--black);
   font-weight: 500;
 }
 
@@ -2891,7 +2892,7 @@ footer .copyright .copyright-inner {
   font-size: 20px;
   line-height: 32px;
   color: var(--text-primary);
-  font-weight: 500;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -2917,8 +2918,8 @@ footer .copyright .copyright-inner {
 #layout #cc .page_content .page_table td {
   padding: 12px;
   border: 0;
-  border-top: 1px solid var(--border);
-  color: var(--text-color);
+  border-top: 1px solid var(--black);
+  color: var(--text-black-primary);
   font-size: 14px;
 }
 
@@ -2939,7 +2940,7 @@ footer .copyright .copyright-inner {
 
 #layout #cc .page_content .page_list_check ul li {
   font-size: 14px;
-  color: var(--text-color);
+  color: var(--text-black-primary);
   background-image: var(--icon-check);
   background-position: center left;
   background-size: 20px 20px;
@@ -2958,7 +2959,7 @@ footer .copyright .copyright-inner {
 
 #layout #cc .page_content .page_list_no ul li {
   font-size: 14px;
-  color: var(--text-color);
+  color: var(--text-black-primary);
   background-image: var(--icon-minus-gray);
   background-position: center left;
   background-size: 20px 20px;
@@ -3015,7 +3016,8 @@ footer .copyright .copyright-inner {
 }
 
 #layout #cc .page_content[data-scrollpoint=ship] .page_gallery+p {
-  background-color: var(--bg-muted);
+  background-color: var(--backgournd-hover-bg);
+  color: var(--black);
   padding: 16px;
   border-radius: 8px;
   font-size: 14px;
@@ -3027,7 +3029,7 @@ footer .copyright .copyright-inner {
   padding: 32px;
   border: 1px solid var(--border);
   border-radius: 8px;
-  color: var(--text-color);
+  color: var(--text-black-primary);
 }
 
 #layout #cc .page_content[data-scrollpoint=deck] #slideList {
@@ -4490,7 +4492,7 @@ footer .footer-inner .footer-col:last-child {
 
 #layout #cc .page_content .page_list_check ul li {
   font-size: 14px !important;
-  color: var(--text-color) !important;
+  color: var(--text-black-primary) !important;
   background-image: var(--icon-check) !important;
   background-position: center left !important;
   background-size: 20px 20px !important;
