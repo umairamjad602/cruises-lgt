@@ -2399,8 +2399,6 @@
     align-items: flex-start;
     position: relative;
     margin-bottom: 20px;
-    width: 30%;
-    left: 65%;
   }
 
   #layout #cc #cc_lay_ship .page_content_header .page_offers_cabine h4,
@@ -4551,4 +4549,9 @@
   }
   .aida.ng-scope {
     display: none !important;
+  }
+
+  #layout #cc #cc_lay_ship .page_content_header form[name=requestFORM] input[type=submit], 
+  #layout #cc #cc_lay_ship .page_content_header form#cc_lay_ship input[type=submit] {
+    background-color: var(--bg-primary);
   }
