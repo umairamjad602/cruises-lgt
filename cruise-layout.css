@@ -1211,7 +1211,6 @@
 
   #layout #search .searchdiv .searchbutton {
     width: 100% !important;
-    border: 1px solid var(--border) !important;
     border-radius: 6px;
     background: unset;
     padding: 8px 24px 8px 48px;
@@ -3425,7 +3424,7 @@
     text-transform: capitalize;
     box-sizing: border-box;
     padding-right: 48px;
-    background-color: var(--green-600);
+    background-color: var(--bg-primary);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: calc(100% - 16px) center;
