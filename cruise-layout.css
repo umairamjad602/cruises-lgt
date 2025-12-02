@@ -1,33 +1,33 @@
   :root {
-    --breakpoint-xl: 1280px;
+    --breakpoint-xl: 1440px;
     --breakpoint-lg: 1024px;
     --breakpoint-md: 768px;
     --breakpoint-sm: 640px;
 
-    --primary-50: #fff3ef;
-    --primary-100: #ffe1d6;
-    --primary-200: #ffc4b3;
-    --primary-300: #ffa084;
-    --primary-400: #ff7b55;
-    --primary-500: #f25a2b;
-    --primary-600: #d34f27;
-    --primary-700: #b04121;
-    --primary-800: #8d331b;
-    --primary-900: #6b2614;
-    --primary-950: #3a120a;
+    --primary-50:  #eaf7fd;
+    --primary-100: #d4effb;
+    --primary-200: #a8dff7;
+    --primary-300: #7ccff3;
+    --primary-400: #50c0ef;
+    --primary-500: #2aa5dd;
+    --primary-600: #248fc0;
+    --primary-700: #1e7aa3;
+    --primary-800: #186387;
+    --primary-900: #124c6a;
+    --primary-950: #0a2e41;
 
-    --border-primary: #f25a2b;
-    --border-primary-light: #ff784f;
+    --border-primary: #2aa5dd;
+    --border-primary-light: #2aa5dd;
 
-    --bg-primary: #f25a2b;
-    --bg-primary-muted: #ff784f;
-    --color-100-muted: #ffe8e1;
+    --bg-primary: #2aa5dd;
+    --bg-primary-muted: #81d0f5;
+    --color-100-muted: #d0f0ff;
 
-    --text-primary: #f25a2b;
+    --text-primary: #2aa5dd;
     --bg-white: #fff;
     --white: #fff;
     --black: #000;
-    --text-color: #f25a2b;
+    --text-color: #2aa5dd;
     --text-black-primary: #767474;
     --backgournd-hover-bg: #ede9e9;
 
@@ -43,17 +43,6 @@
     --red-900: #7F1D1D;
     --red-950: #450A0A;
 
-    --red-50: #FEF2F2;
-    --red-100: #FEE2E2;
-    --red-200: #FECACA;
-    --red-300: #FCA5A5;
-    --red-400: #F87171;
-    --red-500: #EF4444;
-    --red-600: #DC2626;
-    --red-700: #B91C1C;
-    --red-800: #991B1B;
-    --red-900: #7F1D1D;
-    --red-950: #450A0A;
     --border-dashed: 1px dashed var(--text-color);
 
     --box-shadow-lg: 2px 4px 24px rgba(242, 90, 43, 0.08);
@@ -593,7 +582,6 @@
     max-width: var(--breakpoint-xl) !important;
     width: 100% !important;
     margin-top: 24px !important;
-    max-width: 1440px !important;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--search .lp_ss {
@@ -4553,4 +4541,8 @@
   #layout #cc #cc_lay_ship .page_content_header form[name=requestFORM] input[type=submit], 
   #layout #cc #cc_lay_ship .page_content_header form#cc_lay_ship input[type=submit] {
     background-color: var(--bg-primary);
+  }
+
+  #cc label {
+    color: var(--black);
   }
