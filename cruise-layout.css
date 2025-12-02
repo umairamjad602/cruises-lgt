@@ -134,6 +134,7 @@
   #header #header_nav {
     all: revert;
     margin-top: 4px;
+    justify-content: space-between;
   }
 
   #header #header_nav>label,
@@ -461,7 +462,7 @@
   }
 
   #layout #cc .pagemaker-widget.cc-widget--search .flexslider .lp_slider_box {
-    width: 880px;
+    width: 100%;
     height: 500px;
   }
 
@@ -494,6 +495,7 @@
     display: flex;
     flex-direction: column;
     background-color: unset !important;
+    padding: 0 !important;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--content:has(+ .cc-widget--product-map) {
@@ -4547,3 +4549,217 @@
   #cc label {
     color: var(--black);
   }
+
+  #layout #cc .pagemaker-widget.cc-widget--search .flexslider {
+    width: 100%;
+  }
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal-content h2 {
+  font-size: 18px !important;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.btn {
+  margin-top: 16px !important;
+  width: 100% !important;
+  padding: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--bg-primary);
+  color: var(--text-on-primary);
+  border-radius: 8px;
+  border: none;
+}
+
+.form-control {
+  color: #000 !important;
+  width: 100%;
+  padding: 10px !important;
+  margin-bottom: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  background: #f2f2f2 !important;
+  outline: none !important;
+  margin-top: 7px !important;
+}
+
+.form-wrapper {
+  margin-top: 16px;
+}
+
+.input-label {
+  color: #434343 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.bg-white {
+  background-color: var(--bg-white) !important;
+} 
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.btn-sm {
+  padding: 10px 20px;
+  margin: 0 !important;
+}
+
+.container {
+  padding: 0 !important;
+}
+
+.footer-menu li {
+  margin-bottom: 8px !important;
+}
+
+/* Hamburger Button */
+.mobile-menu-btn {
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 10000;
+}
+
+@media(max-width: 768px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+}
+
+/* Slide Menu */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -4px 0 12px rgba(0,0,0,0.15);
+    padding: 20px;
+    transition: right 0.35s ease;
+    overflow-y: auto;
+    z-index: 9999;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+/* Base List Style */
+.mobile-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li, .mobile-menu li li {
+    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+
+.mobile-menu li a, .mobile-menu li a li a {
+    display: block;
+    padding: 12px 5px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.mobile-menu li a:hover, .mobile-menu li a li a:hover {
+    color: #0078ff;
+}
+
+/* Submenu indicators */
+.has-sub > .submenu-toggle {
+    position: relative;
+}
+
+.has-sub > .submenu-toggle::after {
+    content: "▸";
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s ease;
+}
+
+.has-sub.open > .submenu-toggle::after {
+    transform: rotate(90deg);
+}
+
+/* Smooth dropdown animation */
+.sub {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+    background: #fafafa;
+}
+
+.has-sub.open .sub {
+    max-height: 500px; /* enough height to animate smoothly */
+}
+
+@media (max-width: 1282px) {
+  #layout #cc .pagemaker-widget.cc-widget--content {
+    padding: 15px !important;
+  }
+  #header {
+    position: static !important;
+  }
+  #layout #cc .pagemaker-widget.cc-widget--content.last-layout-pagemaker-widget, .last-layout-pagemaker-widget {
+    padding: 0 !important;
+  }
+  #header #header_logo img{
+    height: 30px !important;
+  }
+
+  #header #header_logo {
+    height: 40px !important;
+  }
+
+  #openModal {
+    display: none;
+  }
+  .head-menu {
+    padding-top: 10px;
+    padding-right: 20px;
+    display: block !important;
+  }
+}
+@media (min-width: 1282px) {
+  .head-menu {
+    display: none !important;
+  }
+}
