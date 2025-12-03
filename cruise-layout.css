@@ -438,6 +438,7 @@
     padding-left: 4px !important;
     border-radius: 16px 0px 0px 16px;
     box-shadow: var(--box-shadow-lg);
+    overflow: hidden !important;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--search .lp_ss_box03 .lp_ss_box03_inlay>div {
@@ -4644,6 +4645,35 @@
   margin-bottom: 8px !important;
 }
 
+.top-bar-wrapper {
+  width: 100% !important;
+  background-color: var(--primary-950);
+  color: var(--bg-white);
+  font-size: 14px !important;
+  padding: 8px 0 !important;
+}
+
+.top-bar-wrapper p {
+  font-size: 16px !important;
+  padding: 0 20px !important;
+  margin: 0 !important;
+  font-weight: 500 !important;
+}
+
+.top-bar-wrapper p a {
+  color: var(--bg-white) !important
+}
+
+.top-bar-wrapper p a:hover {
+  text-decoration: underline !important;
+}
+
+.top-bar-wrapper p svg {
+  fill: var(--bg-white);
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 /* Hamburger Button */
 .mobile-menu-btn {
     font-size: 26px;
@@ -4747,6 +4777,7 @@
 
   #header #header_logo {
     height: 40px !important;
+    top: 35px !important;
   }
 
   #openModal {
