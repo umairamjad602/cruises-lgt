@@ -4676,6 +4676,9 @@
 #cc .list_filter li[class^="headline_var"]:hover {
   background-color: var(--primary-300) !important;
 }
+#cc .list_filter {
+  width: 319.25px !important;
+}
 
 /* Hamburger Button */
 .mobile-menu-btn {
