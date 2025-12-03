@@ -438,7 +438,6 @@
     padding-left: 4px !important;
     border-radius: 16px 0px 0px 16px;
     box-shadow: var(--box-shadow-lg);
-    overflow: hidden !important;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--search .lp_ss_box03 .lp_ss_box03_inlay>div {
@@ -448,7 +447,7 @@
     box-sizing: border-box;
     padding: 16px !important;
     background-color: var(--white);
-    border-radius: 0 0 0 0;
+    border-radius: 16px 0px 0px 16px;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--search .lp_ss_box04 {
@@ -4672,6 +4671,10 @@
   fill: var(--bg-white);
   vertical-align: middle;
   margin-right: 5px;
+}
+
+#cc .list_filter li[class^="headline_var"]:hover {
+  background-color: var(--primary-300) !important;
 }
 
 /* Hamburger Button */
