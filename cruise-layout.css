@@ -4547,7 +4547,7 @@
   }
 
   #cc label {
-    color: var(--black);
+    color: var(--black) !important;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--search .flexslider {
