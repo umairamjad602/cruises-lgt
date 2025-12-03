@@ -1602,7 +1602,7 @@
     background-color: var(--bg-white);
     background-image: var(--arrow-down);
     background-repeat: no-repeat;
-    background-position: calc(100% - 16px) center;
+    background-position: calc(100% - 16px) center !important;
     padding: 8px 40px 8px 16px;
     font-size: 14px;
     line-height: 20px;
@@ -4684,6 +4684,14 @@
   width: 93% !important;
   margin-left: 15px !important;
 }
+
+.page_nav_top {
+    border: none !important;
+}
+.page_nav_top ul {
+  display: none !important;
+}
+
 
 /* Hamburger Button */
 .mobile-menu-btn {
