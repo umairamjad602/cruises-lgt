@@ -4680,6 +4680,11 @@
   width: 319.25px !important;
 }
 
+#cc .list_filter ul label {
+  width: 93% !important;
+  margin-left: 15px !important;
+}
+
 /* Hamburger Button */
 .mobile-menu-btn {
     font-size: 26px;
