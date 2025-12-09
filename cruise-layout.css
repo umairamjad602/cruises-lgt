@@ -1103,7 +1103,7 @@
     --value-font-weight: 500;
       --value-color: var(--text-black-primary);
     color: var(--text-black-primary);
-    border: 1px solid var(--text-black-primary) !important;
+    /* border: 1px solid var(--text-black-primary) !important; */
     border-radius: 7px !important;
   }
 
@@ -4864,4 +4864,8 @@
   background-color: var(--bg-primary) !important;
   border-radius: 6px !important;
   margin-bottom: 30px !important;
+}
+
+.liste_box_sort .b_delete {
+  position: static !important;
 }
