@@ -4869,3 +4869,27 @@
 .liste_box_sort .b_delete {
   position: static !important;
 }
+
+#cc .lp_slider_box.cc-cl-logo-75 {
+  height: 100px !important;
+}
+
+#cc .lp_slider_box.cc-cl-logo-75 {
+  background-size: 50%, contain !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  display: none !important;
+  
+}
+
+#layout #cc .pagemaker-widget.cc-widget--carousel .swiper .swiper-button-prev,
+#layout #cc .pagemaker-widget.cc-widget--carousel .swiper .swiper-button-next {
+  display: block !important;
+  height: 100%;
+  background-color: var(--white) !important;
+}
+
+#layout #cc .pagemaker-widget.cc-widget--carousel .swiper .swiper-button-prev {
+  left: 0 !important;
+}
