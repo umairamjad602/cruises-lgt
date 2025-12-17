@@ -855,34 +855,6 @@
     max-width: 180px;
   }
 
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=Celestyal_Cruises]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/Celestyal_Cruises.png");
-  }
-
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=Norwegian_Cruise_Line]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/Norwegian_Cruise_Line.png");
-  }
-
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=Costa_Cruises]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/Costa_Cruises.png");
-  }
-
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=Royal_Caribbean]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/Royal_Caribbean.png");
-  }
-
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=MSC_Cruises]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/MSC_Cruises.png");
-  }
-
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=Celebrity_Cruises]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/Celebrity_Cruises.png");
-  }
-
-  #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage a[href*=Princess_Cruises]:after {
-    background-image: url("https://ayhanmike.github.io/cruise/assets/cruiseline/Princess_Cruises.png");
-  }
-
   #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .image {
     height: 220px;
     background-position: center center;
@@ -4874,7 +4846,7 @@
 }
 
 #cc .lp_slider_box.cc-cl-logo-75 {
-  background-size: 50%, contain !important;
+  background-size: 60%, contain !important;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
