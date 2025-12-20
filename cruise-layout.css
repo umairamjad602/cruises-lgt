@@ -4784,6 +4784,7 @@
   }
   #header #header_nav {
     padding-top: 10px !important;
+    padding-right: 10px !important;
   }
 }
 @media (min-width: 1282px) {
@@ -4869,4 +4870,8 @@
 
 #layout #cc .pagemaker-widget.cc-widget--carousel .swiper .swiper-button-prev {
   left: 0 !important;
+}
+
+#layout #cc .button_favor, #layout #cc .button_favor_blue {
+  background-color: var(--bg-white) !important;
 }
