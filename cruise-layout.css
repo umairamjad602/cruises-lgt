@@ -135,6 +135,7 @@
     all: revert;
     margin-top: 4px;
     justify-content: space-between;
+    
   }
 
   #header #header_nav>label,
@@ -830,7 +831,7 @@
   #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide {
     padding: 24px 20px;
     margin: 0 !important;
-    width: 200px !important;
+    width: 170px!important;
   }
 
   #layout #cc .pagemaker-widget.cc-widget--carousel .swiper-wrapper .swiper-slide .lp_trip_box_offimage {
@@ -4327,6 +4328,10 @@
     footer .copyright {
       padding: 24px;
     }
+
+    #header #header_nav {
+      justify-content: end;
+    }
   }
 
 
@@ -4775,9 +4780,10 @@
     display: none;
   }
   .head-menu {
-    padding-top: 10px;
-    padding-right: 20px;
-    display: block !important;
+    padding-top: 0px;
+  }
+  #header #header_nav {
+    padding-top: 10px !important;
   }
 }
 @media (min-width: 1282px) {
@@ -4846,7 +4852,7 @@
 }
 
 #cc .lp_slider_box.cc-cl-logo-75 {
-  background-size: 60%, contain !important;
+  background-size: 90%, contain !important;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
