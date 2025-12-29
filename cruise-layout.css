@@ -1297,7 +1297,7 @@
   }
 
   #layout+div {
-    display: none;
+    display: block !important;
   }
 
   a[href*="www.cruisehost.net"] {
