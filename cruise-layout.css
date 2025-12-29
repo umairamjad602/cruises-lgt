@@ -1300,9 +1300,9 @@
     display: none;
   }
 
-  a[href*="www.cruisehost.net"] {
+  /* a[href*="www.cruisehost.net"] {
     display: none;
-  }
+  } */
 
   footer {
     background: linear-gradient(90deg, #E72027 0%, #E72027 33%, #77AB09 33%, #77AB09 66%, #22A4DE 66%, #22A4DE 100%);
