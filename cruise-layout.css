@@ -4875,3 +4875,71 @@
 #layout #cc .button_favor, #layout #cc .button_favor_blue {
   background-color: var(--bg-white) !important;
 }
+
+.searchclick.area {
+  padding: 0 !important;
+  height: 0 !important;
+} 
+
+.btn-group {
+    position: relative;
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #1173a0;
+}
+
+.dropdown-toggle::after {
+    content: " ▼";
+    font-size: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 110% !important;
+    left: 0;
+    min-width: 120px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    display: block !important;
+    padding: 8px 12px !important;
+    color: #333 !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1 !important;
+}
