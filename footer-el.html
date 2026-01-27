@@ -102,28 +102,3 @@
         </div>
     </div>
 </footer>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const layouts = document.querySelectorAll('#layout');
-        if (!layouts.length) return;
-        const lastLayout = layouts[layouts.length - 1];
-        lastLayout.classList.add('last-layout');
-        // you can also add a helper class to its pagemaker-widget(s)
-        const widgets = lastLayout.querySelectorAll('.pagemaker-widget');
-        widgets.forEach(w => {
-            w.classList.add('last-layout-pagemaker-widget');
-            w.style.setProperty("width", "100%", "important");
-            w.style.setProperty("max-width", "100%", "important");
-        });
-
-        const wishlistEl = document.querySelector('div[ng-show="countCruises > 0"]');
-        wishlistEl.style.width = '100%';
-        var divs = document.getElementsByTagName('div');
-        for (var i = divs.length - 1; i >= 0; i--) {
-            if (divs[i].innerText.indexOf('CRUISEHOST Solutions') !== -1) {
-                divs[i].parentNode.removeChild(divs[i]);
-            }
-        }
-    });
-
-</script>
