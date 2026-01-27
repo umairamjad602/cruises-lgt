@@ -3537,10 +3537,6 @@
       display: block !important;
     }
 
-    body {
-      padding-top: 56px;
-    }
-
     #test {
       display: none;
     }
@@ -3569,16 +3565,11 @@
 
     #header #header_logo {
       position: absolute;
-      left: 46px;
-      top: 0;
+      left: 20px;
       z-index: 1;
       height: 56px;
     }
 
-    #header #header_logo a,
-    #header #header_logo img {
-      height: 18px;
-    }
 
     #header #cc-header-add-content--1 .header-call {
       position: absolute;
@@ -4773,7 +4764,6 @@
 
   #header #header_logo {
     height: 40px !important;
-    top: 35px !important;
   }
 
   #openModal {
@@ -4785,6 +4775,7 @@
   #header #header_nav {
     padding-top: 10px !important;
     padding-right: 10px !important;
+    padding-left: 10px !important;
   }
 }
 @media (min-width: 1282px) {
