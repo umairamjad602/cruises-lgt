@@ -192,20 +192,6 @@
 </div>
 
 <script>
-    function removeTopMarginWithImportant() {
-        const widgets = document.querySelectorAll('.pagemaker-widget.cc-widget--content');
-
-        widgets.forEach(widget => {
-            if (widget.querySelector('#header')) {
-                widget.style.setProperty('margin-top', '0', 'important');
-                widget.style.setProperty('padding-top', '0', 'important');
-                widget.style.setProperty('padding', '0', 'important');
-                widget.style.setProperty('width', '100%', 'important');
-                widget.style.setProperty('max-width', 'unset', 'important');
-            }
-        });
-    }
-    removeTopMarginWithImportant();
     $(document).ready(function() {
         $('#openModal').on('click', function() {
             $('#subscriveModal').fadeIn();
