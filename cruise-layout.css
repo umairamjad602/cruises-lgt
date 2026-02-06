@@ -4796,7 +4796,7 @@
   background-position: calc(100% - 16px) center !important;
 }
 
-#cc input, #cc textarea {
+#cc .searchdiv input, #cc textarea, #cc .btnSearch {
   width: 100% !important;
   border: 1px solid var(--border) !important;
   color: var(--text-muted) !important;
@@ -4933,4 +4933,8 @@
 
 .dropdown-item:hover {
     background-color: #f1f1f1 !important;
+}
+
+#cc_radio_seea2 {
+  float: right !important;
 }
