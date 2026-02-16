@@ -4476,7 +4476,7 @@
   #header #header_nav #menu>li:has(ul):has(li):hover ul {
     z-index: 99999;
     background: #fff !important;
-    max-width: 280px;
+    /* max-width: 280px; */
   }
 
   .slides, .slides li, .flex-control-nav, .flex-direction-nav {
@@ -4937,4 +4937,15 @@
 
 #cc_radio_seea2 {
   float: right !important;
+}
+
+.sub-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.sub-links li {
+  width: 50%;
+  margin-bottom: 10px;
 }
