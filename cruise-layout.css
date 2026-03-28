@@ -171,6 +171,8 @@
   #header #header_nav #menu>li>a {
     border-radius: 6px;
     font-weight: 500;
+    min-width: 100px;
+    text-align: center;
   }
 
   #header #header_nav #menu>li>a:hover,
