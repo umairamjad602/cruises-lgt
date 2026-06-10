@@ -1,0 +1,711 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruises Let's Go Tours</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./cruise-layout.css">
+    <link rel="stylesheet" href="./other-page.css">
+
+    <script src="./jquery.min.js"></script>
+    <script src="./custom.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .two-line-clamp {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      color: #3498db !important
+    }
+    /* .card-thumbnail-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    } */
+  </style>
+</head>
+
+<body>
+    <div class="top-bar-wrapper">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <p>
+                    <span>
+                        <svg style="height: 100%;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                    </span>
+                    <a href="tel:77 77 82 77">77 77 82 77</a> / <a href="tel:+357 22716390">+357 22716390</a>
+                </p>
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </button>
+                    <div class="dropdown-menu" id="languageDropdown">
+                        <a class="dropdown-item" href="https://cruises.letsgotours.com/start?aid=210982">English</a>
+                        <a class="dropdown-item" href="https://cruises.letsgotours.com/start?aid=212832">Greek</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div id="header_nav" class="container">
+            <div id="header_logo"><a href="https://cruises.letsgotours.com/start?aid=210982"><img alt=""
+                        src="https://letsgotours.com/assets/images/logo.png" width="px;"> </a></div>
+            <ul id="menu">
+                <li name="M106"><a href="https://cruises.letsgotours.com/start?aid=210982">Home</a>
+                    <ul class="hidden"> </ul>
+                </li>
+                <li name="M108"><a href="javascript:void(0);">Cruise Lines</a>
+                    <ul class="hidden sub-links">
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Carnival_Cruise_Line/all/all/all/all?aid=210982"
+                                target="_blank">Carnival</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Celebrity_Cruises?aid=210982"
+                                target="_blank">Celebrity Cruises</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Celestyal_Cruises?aid=210982"
+                                target="_blank">Celestyal</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Costa_Cruises?aid=210982"
+                                target="_blank">Costa Cruises</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Cunard?aid=210982"
+                                target="_blank">Cunard</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Disney_CRUISE_LINE?aid=210982"
+                                target="_blank">Disney Cruises</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Explora_Journeys?aid=210982"
+                                target="_blank">Explora Journeys</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Holland_America?aid=210982"
+                                target="_blank">Holland America</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/MSC_Cruises/all/all/all/all?aid=210982"
+                                target="_blank">MSC Cruises</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Celebrity_Cruises+Norwegian_Cruise_Line?aid=210982"
+                                target="_blank">Norwegian Cruise Line</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Oceania_Cruises?aid=210982"
+                                target="_blank">Oceania</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/P_and_O_Cruises?aid=210982"
+                                target="_blank">P & O Cruises</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Princess_Cruises?aid=210982"
+                                target="_blank">Princess</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Royal_Caribbean?aid=210982"
+                                target="_blank">Royal Caribbean</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Virgin_Voyages?aid=210982"
+                                target="_blank">Virgin Voyages</a></li>
+                    </ul>
+                </li>
+                <li name="M107" class="has-sub"><a href="javascript:void(0);">Destinations</a>
+                    <ul class="hidden">
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Africa/all/all/all/all/all?aid=210982"
+                                target="_blank">Africa</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Alaska/all/all/all/all/all?aid=210982"
+                                target="_blank">Alaska</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Indian_Ocean+South_East_Asia+Asia/all/all/all/all/all?aid=210982"
+                                target="_blank">Asia</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Canary_Isles/all/all/all/all/all?aid=210982"
+                                target="_blank">Canary Isles</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Central_America_Caribbean+Eastern_Caribbean+Western_Caribbean+Southern_Caribbean+America/all/all/all/all/all?aid=210982"
+                                target="_blank">Caribbean</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Western_Mediterranean+Eastern_Mediterranean+Central_Mediterranean_+Mediterranean+Europe/all/all/all/all/all?aid=210982"
+                                target="_blank">Mediterranean</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Middle_East/all/all/all/all/all?aid=210982"
+                                target="_blank">Middle East</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Norwegian_Fjords/all/all/all/all/all?aid=210982"
+                                target="_blank">Norwegian Fjords</a></li>
+                    </ul>
+                </li>
+
+                <li name="M107" class="has-sub"><a href="javascript:void(0);" class="submenu-toggle">Fly & Cruise</a>
+                    <ul class="sub">
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/all/all/July2026/August2026/all?aid=210982&filter%5Bpackages%5D%5B%5D=AIR&sort=0"
+                                target="_blank">From Piraeus</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Norwegian_Cruise_Line-Norwegian_Epic+MSC_Cruises-MSC_Grandiosa+MSC_Cruises-MSC_Splendida+MSC_Cruises-MSC_World_Europa+Costa_Cruises-Costa_Pacifica/all/July2026/August2026/all?aid=210982&filter%5Bpackages%5D%5B%5D=AIR&sort=0"
+                                target="_blank">Mediterranean</a></li>
+                        <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/MSC_Cruises-MSC_Euribia/all/all/all/all?aid=210982&filter%5Bpackages%5D%5B%5D=AIR&sort=0"
+                                target="_blank">Norwegian Fjords</a></li>
+                    </ul>
+                </li>
+                <li name="M106">
+                    <a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Marella_Cruises?aid=210982">Cruises
+                        from Limassol</a>
+                </li>
+                <li class="menu_active" name="M106">
+                    <a href="https://brochures.letsgotours.com/brouchers.html">E-Brochures</a>
+                </li>
+
+            </ul>
+            <div style="display:  flex; gap: 5px; align-items: center; min-width: 231px">
+                <a href="https://cruises.letsgotours.com/start/watchlist?aid=210982"
+                    class="btn bg-white btn-sm text-primary">My Wishlist</a>
+                <button class="btn bg-white btn-sm text-primary" id="openModal">Subscribe</button>
+            </div>
+
+            <div class="head-menu">
+                <button class="btn bg-white btn-sm text-primary mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+        <ul id="mobileMenuList">
+            <div style="display: flex; justify-content: end">
+                <button class="btn bg-white btn-sm text-primary mobileMenuBtn" style="text-align: end;">X</button>
+            </div>
+            <li name="M106">
+                <a href="https://cruises.letsgotours.com/start?aid=210982">Home</a>
+            </li>
+
+            <li name="M108" class="has-sub">
+                <a href="javascript:void(0);" class="submenu-toggle">Cruise Lines</a>
+                <ul class="sub">
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Carnival_Cruise_Line/all/all/all/all?aid=210982"
+                            target="_blank">Carnival</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Celebrity_Cruises?aid=210982"
+                            target="_blank">Celebrity Cruises</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Celestyal_Cruises?aid=210982"
+                            target="_blank">Celestyal</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Costa_Cruises?aid=210982"
+                            target="_blank">Costa Cruises</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Cunard?aid=210982"
+                            target="_blank">Cunard</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Disney_CRUISE_LINE?aid=210982"
+                            target="_blank">Disney Cruises</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Explora_Journeys?aid=210982"
+                            target="_blank">Explora Journeys</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Holland_America?aid=210982"
+                            target="_blank">Holland America</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/MSC_Cruises/all/all/all/all?aid=210982"
+                            target="_blank">MSC Cruises</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Celebrity_Cruises+Norwegian_Cruise_Line?aid=210982"
+                            target="_blank">Norwegian Cruise Line</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Oceania_Cruises?aid=210982"
+                            target="_blank">Oceania</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/P_and_O_Cruises?aid=210982"
+                            target="_blank">P & O Cruises</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Princess_Cruises?aid=210982"
+                            target="_blank">Princess</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Royal_Caribbean?aid=210982"
+                            target="_blank">Royal Caribbean</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Virgin_Voyages?aid=210982"
+                            target="_blank">Virgin Voyages</a></li>
+                </ul>
+            </li>
+
+            <li name="M107" class="has-sub"><a href="javascript:void(0);" class="submenu-toggle">Destinations</a>
+                <ul class="sub">
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Africa/all/all/all/all/all?aid=210982"
+                            target="_blank">Africa</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Alaska/all/all/all/all/all?aid=210982"
+                            target="_blank">Alaska</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Indian_Ocean+South_East_Asia+Asia/all/all/all/all/all?aid=210982"
+                            target="_blank">Asia</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Canary_Isles/all/all/all/all/all?aid=210982"
+                            target="_blank">Canary Isles</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Central_America_Caribbean+Eastern_Caribbean+Western_Caribbean+Southern_Caribbean+America/all/all/all/all/all?aid=210982"
+                            target="_blank">Caribbean</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Western_Mediterranean+Eastern_Mediterranean+Central_Mediterranean_+Mediterranean+Europe/all/all/all/all/all?aid=210982"
+                            target="_blank">Mediterranean</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Middle_East/all/all/all/all/all?aid=210982"
+                            target="_blank">Middle East</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/Norwegian_Fjords/all/all/all/all/all?aid=210982"
+                            target="_blank">Norwegian Fjords</a></li>
+                </ul>
+            </li>
+            <li name="M107" class="has-sub"><a href="javascript:void(0);" class="submenu-toggle">Fly & Cruise</a>
+                <ul class="sub">
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/all/all/July2026/August2026/all?aid=210982&filter%5Bpackages%5D%5B%5D=AIR&sort=0"
+                            target="_blank">From Piraeus</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Norwegian_Cruise_Line-Norwegian_Epic+MSC_Cruises-MSC_Grandiosa+MSC_Cruises-MSC_Splendida+MSC_Cruises-MSC_World_Europa+Costa_Cruises-Costa_Pacifica/all/July2026/August2026/all?aid=210982&filter%5Bpackages%5D%5B%5D=AIR&sort=0"
+                            target="_blank">Mediterranean</a></li>
+                    <li><a href="https://cruises.letsgotours.com/start/cruises/SEA/all/MSC_Cruises-MSC_Euribia/all/all/all/all?aid=210982&filter%5Bpackages%5D%5B%5D=AIR&sort=0"
+                            target="_blank">Norwegian Fjords</a></li>
+                </ul>
+            </li>
+            <li name="M106">
+                <a href="https://cruises.letsgotours.com/start/cruises/SEA/all/Marella_Cruises?aid=210982">Cruises from
+                    Limassol</a>
+            </li>
+            <li class="menu_active" name="M106">
+                <a href="https://brochures.letsgotours.com/brouchers.html">E-Brochures</a>
+            </li>
+        </ul>
+    </div>
+    <div id="subscriveModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <h2 class="text-center">Subscribe to Our Newsletter</h2>
+            <p class="text-center" style="margin-bottom: 30px">Join our mailing list to receive the latest updates.</p>
+
+            <form id="mc-form" class="form-wrapper" method="post" novalidate>
+                <label for="mc-name" class="input-label">Name:</label>
+                <input class="form-control" type="text" name="FNAME" id="mc-name" placeholder="Enter your name"
+                    required>
+                <label for="mc-email" class="input-label">Email:</label>
+                <input class="form-control" type="email" name="EMAIL" id="mc-email" placeholder="Enter your email"
+                    required>
+
+                <button type="submit" class="btn" id="mc-submit">
+                    Subscribe
+                </button>
+
+                <p id="mc-response" style="margin-top:10px; font-size:14px;"></p>
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#openModal').on('click', function () {
+                $('#subscriveModal').fadeIn();
+            });
+            $('.close').on('click', function () {
+                $('#subscriveModal').fadeOut();
+            });
+            $(document).on('click', function (e) {
+                if ($(e.target).is('#subscriveModal')) {
+                    $('#subscriveModal').fadeOut();
+                }
+            });
+
+            $('#mc-form').submit(function (e) {
+                e.preventDefault();
+                let name = $('#mc-name').val();
+                let email = $('#mc-email').val();
+                let url = "https://gmail.us22.list-manage.com/subscribe/post?u=c73e0b59b5f8e8d4808dc4b9f&amp;id=5e1ac6f160&amp;f_id=00e8c2e1f0";
+                url = url.replace('/post?', '/post-json?') + "&c=?";
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    data: {
+                        FNAME: name,
+                        EMAIL: email
+                    },
+                    dataType: "jsonp",
+                    success: function (data) {
+                        if (data.result === "success") {
+                            $('#mc-response')
+                                .css("color", "green")
+                                .text("Thank you! You have been subscribed.");
+
+                            $('#mc-name').val("");
+                            $('#mc-email').val("");
+                            setTimeout(() => {
+                                $('#subscriveModal').fadeOut();
+                                $('#mc-response').text("");
+                            }, 1000);
+                        } else {
+                            $('#mc-response')
+                                .css("color", "red")
+                                .text(data.msg || "An error occurred. Try again.");
+                        }
+                    },
+                    error: function () {
+                        $('#mc-response')
+                            .css("color", "red")
+                            .text("Unable to connect to server.");
+                    }
+                });
+
+            });
+
+        });
+        $(document).ready(function () {
+            $(".mobileMenuBtn").click(function () {
+                $("#mobileMenu").toggleClass("active");
+            });
+
+            $(document).click(function (e) {
+                if (!$(e.target).closest('#mobileMenu, .mobileMenuBtn').length) {
+                    $("#mobileMenu").removeClass("active");
+                }
+            });
+
+            $(".submenu-toggle").click(function () {
+                let parent = $(this).parent();
+                $(".has-sub").not(parent).removeClass("open");
+                $(".has-sub").not(parent).find(".sub").css("max-height", 0);
+                parent.toggleClass("open");
+                if (parent.hasClass("open")) {
+                    let submenu = parent.find(".sub");
+                    submenu.css("max-height", submenu.prop("scrollHeight") + "px");
+                } else {
+                    parent.find(".sub").css("max-height", 0);
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggle = document.querySelector('.dropdown-toggle');
+            const menu = document.querySelector('.dropdown-menu');
+
+            toggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                menu.classList.toggle('show');
+            });
+
+            document.addEventListener('click', function () {
+                menu.classList.remove('show');
+            });
+        });
+
+
+    </script>
+
+    <!-- Hero Section -->
+<section class="bg-cover position-relative d-flex flex-column justify-content-center"
+  style="background: linear-gradient(135deg, rgba(10,30,60,0.75) 0%, rgba(0,90,120,0.55) 50%, rgba(10,30,60,0.75) 100%), url(https://letsgotours.com/assets/images/news-cover.jpg) center/cover no-repeat; min-height: 300px;"
+  data-overlay="5">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-xl-7 col-lg-9 col-md-12">
+        <div class="fpc-capstion text-center my-4">
+          <div class="fpc-captions">
+            <h1 class="xl-heading text-white">Our News</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="gray-simple py-5">
+  <div class="container py-2">
+
+    <!-- News Cards Container -->
+    <div class="row justify-content-center g-4" id="newsContainer"></div>
+
+    <!-- Skeleton Loader -->
+    <div class="row justify-content-center g-4" id="skeletonContainer" style="display:none;">
+      <!-- 4 skeleton cards -->
+      <div class="col-xl-6 col-lg-6 col-md-12">
+        <div class="card rounded-3 p-2">
+          <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-5">
+              <div class="placeholder-glow">
+                <span class="placeholder w-100" style="height: 200px; display: block; border-radius: 8px;"></span>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7">
+              <div class="position-relative pt-md-0 pt-3">
+                <h4 class="fw-bold fs-6 lh-base placeholder-glow">
+                  <span class="placeholder col-10"></span>
+                </h4>
+                <p class="placeholder-glow">
+                  <span class="placeholder col-12 mb-2"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <div class="placeholder-glow">
+                  <span class="placeholder col-4"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- repeat x4 (copy above div 3 more times) -->
+    </div>
+
+    <!-- Load More Button -->
+    <div class="row align-items-center" id="loadMoreContainer" style="display:none;">
+      <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="d-flex align-items-center justify-content-center mt-5 mx-auto text-center">
+          <button type="button" id="loadMoreBtn" class="btn btn-light-primary rounded-pill px-5 fw-medium">
+            Load More
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+const filters = {
+  pageNumber: 1,
+  pageSize: 30,
+  query: '',
+  categoryId: -198,
+  pageType: null,
+  languageCode: 'en'
+};
+
+let newsList = [];
+let totalPages = 0;
+let loading = false;
+const baseRoute = 'https://letsgotours.com/en/news';
+
+document.addEventListener('DOMContentLoaded', () => {
+  filters.languageCode = getCurrentLanguage();
+  getPagesAsync();
+  document.getElementById('loadMoreBtn').addEventListener('click', loadMore);
+});
+
+async function getPagesAsync() {
+  try {
+    loadingStart();
+
+    const params = {
+      pageNumber: filters.pageNumber,
+      pageSize: filters.pageSize,
+      categoryId: filters.categoryId,
+      languageCode: filters.languageCode,
+    };
+    if (filters.query) params.query = filters.query;
+    if (filters.pageType) params.pageType = filters.pageType;
+
+    const queryParams = new URLSearchParams(params).toString();
+
+    const response = await fetch(`https://api.letsgotours.com/api/pages/open?${queryParams}`, {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    if (!response.ok) throw new Error('Network error: ' + response.status);
+
+    const data = await response.json();
+    console.log('API Response:', data);
+
+    if (filters.pageNumber === 1) {
+      newsList = data.data;
+    } else {
+      const existingIds = new Set(newsList.map(n => n.id));
+      const newItems = data.data.filter(n => !existingIds.has(n.id));
+      newsList = [...newsList, ...newItems];
+    }
+
+    filters.pageNumber = data.pageNumber;
+    filters.pageSize = data.pageSize;
+    totalPages = data.pages;
+
+    console.log('newsList:', newsList);
+    renderNews();
+    loadingFinished();
+
+  } catch (error) {
+    console.error(error);
+    toastError('Fetch news failed!');
+    loadingFinished();
+  }
+}
+
+function loadMore() {
+  if (loading) return;
+  if (filters.pageNumber < totalPages) {
+    filters.pageNumber += 1;
+    getPagesAsync();
+  }
+}
+
+function renderNews() {
+  const container = document.getElementById('newsContainer');
+  console.log('renderNews called, newsList length:', newsList.length);
+
+  container.innerHTML = '';
+
+  newsList.forEach(news => {
+    if (document.getElementById(`news-${news.id}`)) return;
+
+    const published = news.published
+      ? new Date(news.published).toLocaleDateString()
+      : '';
+
+    const col = document.createElement('div');
+    col.className = 'col-xl-6 col-lg-6 col-md-12';
+    col.id = `news-${news.id}`;
+    col.innerHTML = `
+      <div class="card rounded-3 p-2">
+        <div class="row">
+          <div class="col-xl-5 col-lg-5 col-md-5">
+            <a href="${baseRoute}/${news.slug}" class="d-block h-100">
+              <img src="${getFileURL(news.thumbnail)}"
+                   class="img-fluid object-fit rounded card-thumbnail-image"
+                   alt="${news.title}">
+            </a>
+          </div>
+          <div class="col-xl-7 col-lg-7 col-md-7">
+            <div class="position-relative pt-md-0 pt-3 h-100 d-flex justify-content-between flex-column">
+              <div>
+                <h4 class="fw-bold fs-6 lh-base two-line-clamp">
+                  <a href="${baseRoute}/${news.slug}" class="text-dark">${news.title}</a>
+                </h4>
+                <p class="mb-1 two-line-clamp">${news.shortDescription || ''}</p>
+                ${published ? `<p class="mb-1"><span class="fw-bold">Published:</span> ${published}</p>` : ''}
+              </div>
+              <a class="text-primary fw-medium" href="${baseRoute}/${news.slug}">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    container.appendChild(col);
+  });
+
+  const loadMoreContainer = document.getElementById('loadMoreContainer');
+  loadMoreContainer.style.display = (filters.pageNumber < totalPages) ? 'block' : 'none';
+}
+
+function loadingStart() {
+  loading = true;
+  document.getElementById('skeletonContainer').style.display = 'flex';
+}
+
+function loadingFinished() {
+  loading = false;
+  document.getElementById('skeletonContainer').style.display = 'none';
+}
+
+function getFileURL(thumbnail) {
+  if (!thumbnail) return 'assets/images/placeholder.jpg';
+  if (typeof thumbnail === 'string') {
+    if (thumbnail.startsWith('http')) return thumbnail;
+    return 'https://api.letsgotours.com/' + thumbnail;
+  }
+  if (typeof thumbnail === 'object' && thumbnail.uuid) {
+    const ext = thumbnail.extension || thumbnail.mediaExtension || 'jpg';
+    return `https://api.letsgotours.com/www/public/storage/files/${thumbnail.uuid}.${ext}`;
+  }
+  return 'assets/images/placeholder.jpg';
+}
+
+function getCurrentLanguage() {
+  return localStorage.getItem('lang') || 'en';
+}
+
+function toastError(message) {
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#dc3545;color:#fff;padding:12px 20px;border-radius:6px;z-index:9999;font-size:14px;';
+  toast.textContent = message;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 4000);
+}
+</script>
+
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="container" id="en-container">
+                <div class="footer-inner">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <div class="d-flex align-items-start flex-column mb-3">
+                                <div class="d-inline-block"><img alt="Footer Logo" class="img-fluid"
+                                        src="https://letsgotours.com/assets/images/logo.png" width="160" /></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-menu"><strong>Our Offices</strong>
+
+                            <ul>
+                                <li><svg class="bi bi-geo-alt" fill="currentColor" height="16" viewbox="0 0 16 16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10">
+                                        </path>
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6">
+                                        </path>
+                                    </svg> <span>&nbsp; 17 Omirou Avenue, 1097 Nicosia, Cyprus</span></li>
+                                <li><svg class="bi bi-telephone" fill="currentColor" height="16" viewbox="0 0 16 16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z">
+                                        </path>
+                                    </svg> <span>&nbsp; +357 22 716350</span></li>
+                                <li><svg class="bi bi-geo-alt" fill="currentColor" height="16" viewbox="0 0 16 16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10">
+                                        </path>
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6">
+                                        </path>
+                                    </svg> <span>&nbsp; 2 Syntagmatos street, 3036 Limassol, Cyprus +357 25
+                                        346033</span>
+                                </li>
+                                <li><svg class="bi bi-telephone" fill="currentColor" height="16" viewbox="0 0 16 16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z">
+                                        </path>
+                                    </svg> <span>&nbsp; +357 25 346033</span></li>
+                                <li><svg class="bi bi-envelope" fill="currentColor" height="16" viewbox="0 0 16 16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z">
+                                        </path>
+                                    </svg> <span>&nbsp; sales@letsgotours.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-menu"><strong>Working Hours</strong>
+
+                            <ul>
+                                <li>Monday &ndash; Friday</li>
+                                <li>08:00 &ndash; 13:00 &amp;</li>
+                                <li>14:30 &ndash; 17:30</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-menu"><strong>About Us</strong>
+
+                            <ul>
+                                <li><a href="who-we-are.html">Who we are</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="news.html">Our News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-menu"><strong>More Information</strong>
+
+                            <ul>
+                                <li><a href="content.html?slug=privacy-policy&lang=en">Privacy Policy</a></li>
+                                <li><a href="content.html?slug=cookies-policy&lang=en">Cookies Policy</a></li>
+                                <li><a href="content.html?slug=terms-and-conditions&lang=en">Terms and Conditions</a>
+                                </li>
+                                <li><a href="content.html?slug=traveller-rights&lang=en">Traveller Rights</a></li>
+                                <li><a href="https://letsgotours.com/en/travel-insurance-information">Travel
+                                        Insurance</a>
+                                </li>
+                                <li><a href="http://letsgotours.liknoss.com/app">Ferries</a></li>
+                                <li><a href="https://www.letsgotours.trade/">Travel Agents</a></li>
+                                <li><a href="https://brochures.letsgotours.com/brouchers.html">Brochures</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright-inner">
+                <p class="mb-0 text-center p-color" style="color: white;">Designed and developed by <a
+                        href="https://digibitstech.com" target="_blank" class="text-primary">Digibits Technologies</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="custom.js"></script>
+</body>
+
+</html>
+
+
+
+

@@ -30,3 +30,136 @@ h4 a, span a {
     vertical-align: none !important;
     border-top: none !important;
 }
+
+.about-section {
+    background: #f8fafc;
+}
+
+.about-card {
+    padding: 50px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.section-heading .subtitle {
+    display: inline-block;
+    color: #2aa5dd;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.heading-line {
+    width: 80px;
+    height: 4px;
+    background: #2aa5dd;
+    margin: 0 auto 35px;
+    border-radius: 20px;
+}
+
+.about-card p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.about-highlight {
+    background: #2aa5dd;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.about-highlight i {
+    font-size: 28px;
+}
+
+.group-links {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.group-links h5 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.group-links a {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 22px;
+    background: #f1f5f9;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #2aa5dd;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.group-links a:hover {
+    background: #2aa5dd;
+    color: #fff;
+}
+
+.two-line-clamp a { 
+    color: #3498db !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+ }
+
+ .two-line-clamp p { 
+    color: #3498db !important;
+ }
+
+ .text-primary {
+  color: #3498db !important;
+  text-decoration: none !important;
+}
+.two-line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-thumbnail-image {
+  width: 100%; 
+  height: 170px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .about-card {
+        padding: 30px 20px;
+    }
+
+    .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .about-card p {
+        font-size: 16px;
+    }
+
+    .about-highlight {
+        flex-direction: column;
+        text-align: center;
+    }
+}
